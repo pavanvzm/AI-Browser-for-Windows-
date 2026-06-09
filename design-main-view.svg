@@ -1,0 +1,108 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#09090b"/> <!-- zinc-950 -->
+  
+  <!-- Main Browser Window Container -->
+  <rect x="50" y="50" width="1100" height="700" rx="12" fill="#18181b" stroke="#27272a" stroke-width="1"/> <!-- zinc-900 border -->
+  
+  <!-- Top Navigation Bar -->
+  <rect x="50" y="50" width="1100" height="60" rx="12" fill="#18181b"/>
+  <rect x="50" y="98" width="1100" height="1" fill="#27272a"/>
+  
+  <!-- Window Controls -->
+  <circle cx="75" cy="80" r="6" fill="#ef4444"/>
+  <circle cx="95" cy="80" r="6" fill="#f59e0b"/>
+  <circle cx="115" cy="80" r="6" fill="#10b981"/>
+  
+  <!-- Nav Buttons -->
+  <path d="M160 80L155 85L160 90" stroke="#a1a1aa" stroke-width="2" fill="none"/>
+  <path d="M180 80L185 85L180 90" stroke="#a1a1aa" stroke-width="2" fill="none"/>
+  <circle cx="210" cy="80" r="8" stroke="#a1a1aa" stroke-width="2" fill="none"/>
+  <path d="M207 80L210 77L213 80L210 83Z" fill="#a1a1aa"/>
+  
+  <!-- Address Bar -->
+  <rect x="240" y="68" width="600" height="24" rx="6" fill="#09090b" stroke="#27272a"/>
+  <text x="250" y="84" font-family="Inter, sans-serif" font-size="12" fill="#71717a">https://example.com/dashboard</text>
+  <circle cx="820" cy="80" r="8" fill="#18181b" stroke="#27272a"/>
+  <path d="M817 80L820 77L823 80L820 83Z" fill="#71717a"/>
+  
+  <!-- Agent Toggle Button (Active) -->
+  <rect x="1040" y="68" width="80" height="24" rx="6" fill="#4f46e5"/> <!-- indigo-600 -->
+  <text x="1055" y="84" font-family="Inter, sans-serif" font-size="12" fill="white" font-weight="600">Agent On</text>
+  
+  <!-- Main Content Area (WebView Placeholder) -->
+  <rect x="50" y="110" width="850" height="640" fill="#09090b"/>
+  
+  <!-- Fake Web Content -->
+  <rect x="80" y="140" width="200" height="20" rx="4" fill="#27272a"/>
+  <rect x="80" y="180" width="700" height="300" rx="8" fill="#18181b" stroke="#27272a"/>
+  <circle cx="430" cy="330" r="40" fill="#27272a"/>
+  <rect x="80" y="500" width="200" height="100" rx="8" fill="#18181b" stroke="#27272a"/>
+  <rect x="300" y="500" width="200" height="100" rx="8" fill="#18181b" stroke="#27272a"/>
+  <rect x="520" y="500" width="200" height="100" rx="8" fill="#18181b" stroke="#27272a"/>
+  
+  <!-- Agent Sidebar -->
+  <rect x="900" y="110" width="250" height="640" fill="#18181b" stroke="#27272a" stroke-width="0"/>
+  <rect x="900" y="110" width="1" height="640" fill="#27272a"/>
+  
+  <!-- Sidebar Header -->
+  <text x="920" y="140" font-family="Inter, sans-serif" font-size="14" fill="#e4e4e7" font-weight="600">AI Assistant</text>
+  <circle cx="1120" cy="135" r="10" fill="#27272a"/>
+  <path d="M1115 135L1120 140L1125 135" stroke="#71717a" stroke-width="2" fill="none"/>
+  
+  <!-- Chat History -->
+  <!-- User Message -->
+  <rect x="920" y="170" width="210" height="40" rx="8" fill="#27272a"/>
+  <text x="930" y="195" font-family="Inter, sans-serif" font-size="12" fill="#d4d4d8">Find me a flight to Tokyo...</text>
+  
+  <!-- AI Message -->
+  <rect x="920" y="220" width="210" height="60" rx="8" fill="#312e81"/> <!-- indigo-900 -->
+  <rect x="920" y="220" width="4" height="60" rx="2" fill="#6366f1"/> <!-- indigo-500 accent -->
+  <text x="930" y="240" font-family="Inter, sans-serif" font-size="12" fill="#e0e7ff" width="190">Searching for flights under $800...</text>
+  <text x="930" y="260" font-family="Inter, sans-serif" font-size="11" fill="#a5b4fc">Status: Analyzing dates</text>
+  
+  <!-- Task Status Indicator -->
+  <rect x="920" y="300" width="210" height="30" rx="6" fill="#064e3b" stroke="#10b981" stroke-width="1"/> <!-- emerald-900 border -->
+  <text x="930" y="320" font-family="Inter, sans-serif" font-size="11" fill="#6ee7b7" font-weight="600">● Processing Request</text>
+  
+  <!-- Voice Waveform Visualization (Neon Style) -->
+  <rect x="920" y="350" width="210" height="60" rx="8" fill="#09090b" stroke="#27272a"/>
+  <!-- Waveform Bars -->
+  <rect x="930" y="365" width="4" height="30" rx="2" fill="#6366f1"/>
+  <rect x="938" y="360" width="4" height="40" rx="2" fill="#818cf8"/>
+  <rect x="946" y="370" width="4" height="20" rx="2" fill="#6366f1"/>
+  <rect x="954" y="355" width="4" height="50" rx="2" fill="#a5b4fc"/>
+  <rect x="962" y="365" width="4" height="30" rx="2" fill="#6366f1"/>
+  <rect x="970" y="360" width="4" height="40" rx="2" fill="#818cf8"/>
+  <rect x="978" y="370" width="4" height="20" rx="2" fill="#6366f1"/>
+  <rect x="986" y="355" width="4" height="50" rx="2" fill="#a5b4fc"/>
+  <rect x="994" y="365" width="4" height="30" rx="2" fill="#6366f1"/>
+  <rect x="1002" y="360" width="4" height="40" rx="2" fill="#818cf8"/>
+  <rect x="1010" y="370" width="4" height="20" rx="2" fill="#6366f1"/>
+  <rect x="1018" y="355" width="4" height="50" rx="2" fill="#a5b4fc"/>
+  <rect x="1026" y="365" width="4" height="30" rx="2" fill="#6366f1"/>
+  <rect x="1034" y="360" width="4" height="40" rx="2" fill="#818cf8"/>
+  <rect x="1042" y="370" width="4" height="20" rx="2" fill="#6366f1"/>
+  <rect x="1050" y="355" width="4" height="50" rx="2" fill="#a5b4fc"/>
+  <rect x="1058" y="365" width="4" height="30" rx="2" fill="#6366f1"/>
+  <rect x="1066" y="360" width="4" height="40" rx="2" fill="#818cf8"/>
+  <rect x="1074" y="370" width="4" height="20" rx="2" fill="#6366f1"/>
+  <rect x="1082" y="355" width="4" height="50" rx="2" fill="#a5b4fc"/>
+  <rect x="1090" y="365" width="4" height="30" rx="2" fill="#6366f1"/>
+  <rect x="1098" y="360" width="4" height="40" rx="2" fill="#818cf8"/>
+  <rect x="1106" y="370" width="4" height="20" rx="2" fill="#6366f1"/>
+  <rect x="1114" y="355" width="4" height="50" rx="2" fill="#a5b4fc"/>
+  
+  <!-- Input Area -->
+  <rect x="920" y="430" width="210" height="40" rx="8" fill="#09090b" stroke="#27272a"/>
+  <text x="930" y="455" font-family="Inter, sans-serif" font-size="12" fill="#52525b">Type a message...</text>
+  <circle cx="1105" cy="450" r="10" fill="#4f46e5"/>
+  <path d="M1100 450L1105 445L1110 450L1105 455Z" fill="white"/>
+  
+  <!-- Wake Word Badge -->
+  <rect x="920" y="490" width="210" height="30" rx="15" fill="#18181b" stroke="#4f46e5" stroke-width="1"/>
+  <text x="935" y="510" font-family="Inter, sans-serif" font-size="11" fill="#a5b4fc">🎤 Listening for "Hey Agent"</text>
+  
+  <!-- Footer Info -->
+  <text x="600" y="780" font-family="Inter, sans-serif" font-size="12" fill="#52525b" text-anchor="middle">AI-Powered Browser • Dark Mode Only • v1.0.0</text>
+</svg>
