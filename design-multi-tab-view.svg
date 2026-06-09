@@ -1,0 +1,155 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#09090b"/>
+  
+  <!-- Main Browser Window Container -->
+  <rect x="50" y="50" width="1100" height="700" rx="12" fill="#18181b" stroke="#27272a" stroke-width="1"/>
+  
+  <!-- Top Navigation Bar -->
+  <rect x="50" y="50" width="1100" height="60" rx="12" fill="#18181b"/>
+  <rect x="50" y="98" width="1100" height="1" fill="#27272a"/>
+  
+  <!-- Window Controls -->
+  <circle cx="75" cy="80" r="6" fill="#ef4444"/>
+  <circle cx="95" cy="80" r="6" fill="#f59e0b"/>
+  <circle cx="115" cy="80" r="6" fill="#10b981"/>
+  
+  <!-- Nav Buttons -->
+  <path d="M160 80L155 85L160 90" stroke="#a1a1aa" stroke-width="2" fill="none"/>
+  <path d="M180 80L185 85L180 90" stroke="#a1a1aa" stroke-width="2" fill="none"/>
+  <circle cx="210" cy="80" r="8" stroke="#a1a1aa" stroke-width="2" fill="none"/>
+  <path d="M207 80L210 77L213 80L210 83Z" fill="#a1a1aa"/>
+  
+  <!-- Address Bar -->
+  <rect x="240" y="68" width="600" height="24" rx="6" fill="#09090b" stroke="#27272a"/>
+  <text x="250" y="84" font-family="Inter, sans-serif" font-size="12" fill="#71717a">https://search-engine.com/results?q=best+restaurants</text>
+  
+  <!-- Agent Toggle Button (Active) -->
+  <rect x="1040" y="68" width="80" height="24" rx="6" fill="#4f46e5"/>
+  <text x="1055" y="84" font-family="Inter, sans-serif" font-size="12" fill="white" font-weight="600">Agent On</text>
+  
+  <!-- Tab System -->
+  <rect x="50" y="110" width="1100" height="40" fill="#09090b"/>
+  <rect x="50" y="148" width="1100" height="1" fill="#27272a"/>
+  
+  <!-- Active Tab -->
+  <rect x="60" y="115" width="180" height="30" rx="6" fill="#18181b" stroke="#4f46e5" stroke-width="1"/>
+  <text x="75" y="135" font-family="Inter, sans-serif" font-size="12" fill="#e4e4e7">🍽️ Restaurant Search</text>
+  <circle cx="220" cy="130" r="6" fill="#27272a"/>
+  <path d="M217 130L223 130" stroke="#71717a" stroke-width="2"/>
+  
+  <!-- Inactive Tab 1 -->
+  <rect x="250" y="115" width="140" height="30" rx="6" fill="#09090b"/>
+  <text x="265" y="135" font-family="Inter, sans-serif" font-size="12" fill="#71717a">📧 Email</text>
+  
+  <!-- Inactive Tab 2 -->
+  <rect x="400" y="115" width="140" height="30" rx="6" fill="#09090b"/>
+  <text x="415" y="135" font-family="Inter, sans-serif" font-size="12" fill="#71717a">📰 News</text>
+  
+  <!-- New Tab Button -->
+  <circle cx="560" cy="130" r="10" fill="#27272a"/>
+  <path d="M560 125L560 135M555 130L565 130" stroke="#a1a1aa" stroke-width="2"/>
+  
+  <!-- Main Content Area with Search Results -->
+  <rect x="50" y="150" width="850" height="600" fill="#09090b"/>
+  
+  <!-- Search Result Items -->
+  <rect x="80" y="180" width="790" height="100" rx="8" fill="#18181b" stroke="#27272a"/>
+  <rect x="100" y="200" width="400" height="16" rx="4" fill="#4f46e5"/>
+  <text x="100" y="240" font-family="Inter, sans-serif" font-size="14" fill="#a5b4fc">Top Rated Italian Restaurant - Downtown</text>
+  <text x="100" y="260" font-family="Inter, sans-serif" font-size="12" fill="#71717a">Rating: 4.8 ★ • $$ • Open until 10 PM</text>
+  
+  <rect x="80" y="290" width="790" height="100" rx="8" fill="#18181b" stroke="#27272a"/>
+  <rect x="100" y="310" width="350" height="16" rx="4" fill="#4f46e5"/>
+  <text x="100" y="350" font-family="Inter, sans-serif" font-size="14" fill="#a5b4fc">Sushi Paradise - Fresh & Authentic</text>
+  <text x="100" y="370" font-family="Inter, sans-serif" font-size="12" fill="#71717a">Rating: 4.6 ★ • $$$ • Reservations recommended</text>
+  
+  <rect x="80" y="400" width="790" height="100" rx="8" fill="#18181b" stroke="#27272a"/>
+  <rect x="100" y="420" width="380" height="16" rx="4" fill="#4f46e5"/>
+  <text x="100" y="460" font-family="Inter, sans-serif" font-size="14" fill="#a5b4fc">The Burger Joint - Classic American</text>
+  <text x="100" y="480" font-family="Inter, sans-serif" font-size="12" fill="#71717a">Rating: 4.5 ★ • $ • Casual dining</text>
+  
+  <!-- AI Overlay Card (Floating) -->
+  <rect x="200" y="520" width="500" height="180" rx="12" fill="#18181b" stroke="#6366f1" stroke-width="2"/>
+  <rect x="200" y="520" width="500" height="40" rx="12" fill="#312e81"/>
+  <rect x="200" y="548" width="500" height="1" fill="#4f46e5"/>
+  <text x="220" y="545" font-family="Inter, sans-serif" font-size="13" fill="#e0e7ff" font-weight="600">🤖 AI Analysis Complete</text>
+  
+  <text x="220" y="580" font-family="Inter, sans-serif" font-size="13" fill="#d4d4d8">Based on your preferences and current location:</text>
+  <text x="220" y="605" font-family="Inter, sans-serif" font-size="13" fill="#d4d4d8">• "Top Rated Italian" has shortest wait time (15 min)</text>
+  <text x="220" y="630" font-family="Inter, sans-serif" font-size="13" fill="#d4d4d8">• "Sushi Paradise" matches your dietary restrictions</text>
+  <text x="220" y="655" font-family="Inter, sans-serif" font-size="13" fill="#d4d4d8">• Best value: "The Burger Joint" ($ average)</text>
+  
+  <rect x="220" y="670" width="120" height="24" rx="6" fill="#10b981"/>
+  <text x="235" y="687" font-family="Inter, sans-serif" font-size="12" fill="#064e3b" font-weight="600">Book Table</text>
+  <rect x="350" y="670" width="120" height="24" rx="6" fill="#27272a" stroke="#4f46e5"/>
+  <text x="365" y="687" font-family="Inter, sans-serif" font-size="12" fill="#a5b4fc" font-weight="600">View Menu</text>
+  
+  <!-- Agent Sidebar -->
+  <rect x="900" y="150" width="250" height="600" fill="#18181b"/>
+  <rect x="900" y="150" width="1" height="600" fill="#27272a"/>
+  
+  <!-- Sidebar Header -->
+  <text x="920" y="180" font-family="Inter, sans-serif" font-size="14" fill="#e4e4e7" font-weight="600">AI Assistant</text>
+  
+  <!-- Chat History -->
+  <rect x="920" y="210" width="210" height="35" rx="8" fill="#27272a"/>
+  <text x="930" y="232" font-family="Inter, sans-serif" font-size="11" fill="#d4d4d8">Find best restaurants nearby</text>
+  
+  <rect x="920" y="255" width="210" height="70" rx="8" fill="#312e81"/>
+  <rect x="920" y="255" width="4" height="70" rx="2" fill="#6366f1"/>
+  <text x="930" y="275" font-family="Inter, sans-serif" font-size="11" fill="#e0e7ff">Found 3 great options!</text>
+  <text x="930" y="295" font-family="Inter, sans-serif" font-size="10" fill="#a5b4fc">Italian, Sushi, American</text>
+  <text x="930" y="315" font-family="Inter, sans-serif" font-size="10" fill="#a5b4fc">All within 2 miles</text>
+  
+  <!-- Task Status -->
+  <rect x="920" y="340" width="210" height="30" rx="6" fill="#064e3b" stroke="#10b981"/>
+  <text x="930" y="360" font-family="Inter, sans-serif" font-size="11" fill="#6ee7b7" font-weight="600">● Ready for next command</text>
+  
+  <!-- Voice Waveform -->
+  <rect x="920" y="385" width="210" height="60" rx="8" fill="#09090b" stroke="#27272a"/>
+  <rect x="930" y="400" width="4" height="25" rx="2" fill="#6366f1"/>
+  <rect x="938" y="395" width="4" height="35" rx="2" fill="#818cf8"/>
+  <rect x="946" y="405" width="4" height="15" rx="2" fill="#6366f1"/>
+  <rect x="954" y="390" width="4" height="45" rx="2" fill="#a5b4fc"/>
+  <rect x="962" y="400" width="4" height="25" rx="2" fill="#6366f1"/>
+  <rect x="970" y="395" width="4" height="35" rx="2" fill="#818cf8"/>
+  <rect x="978" y="405" width="4" height="15" rx="2" fill="#6366f1"/>
+  <rect x="986" y="390" width="4" height="45" rx="2" fill="#a5b4fc"/>
+  <rect x="994" y="400" width="4" height="25" rx="2" fill="#6366f1"/>
+  <rect x="1002" y="395" width="4" height="35" rx="2" fill="#818cf8"/>
+  <rect x="1010" y="405" width="4" height="15" rx="2" fill="#6366f1"/>
+  <rect x="1018" y="390" width="4" height="45" rx="2" fill="#a5b4fc"/>
+  <rect x="1026" y="400" width="4" height="25" rx="2" fill="#6366f1"/>
+  <rect x="1034" y="395" width="4" height="35" rx="2" fill="#818cf8"/>
+  <rect x="1042" y="405" width="4" height="15" rx="2" fill="#6366f1"/>
+  <rect x="1050" y="390" width="4" height="45" rx="2" fill="#a5b4fc"/>
+  <rect x="1058" y="400" width="4" height="25" rx="2" fill="#6366f1"/>
+  <rect x="1066" y="395" width="4" height="35" rx="2" fill="#818cf8"/>
+  <rect x="1074" y="405" width="4" height="15" rx="2" fill="#6366f1"/>
+  <rect x="1082" y="390" width="4" height="45" rx="2" fill="#a5b4fc"/>
+  <rect x="1090" y="400" width="4" height="25" rx="2" fill="#6366f1"/>
+  <rect x="1098" y="395" width="4" height="35" rx="2" fill="#818cf8"/>
+  <rect x="1106" y="405" width="4" height="15" rx="2" fill="#6366f1"/>
+  <rect x="1114" y="390" width="4" height="45" rx="2" fill="#a5b4fc"/>
+  
+  <!-- Input Area -->
+  <rect x="920" y="460" width="210" height="40" rx="8" fill="#09090b" stroke="#27272a"/>
+  <text x="930" y="485" font-family="Inter, sans-serif" font-size="12" fill="#52525b">Type or speak...</text>
+  <circle cx="1105" cy="480" r="10" fill="#4f46e5"/>
+  <path d="M1100 480L1105 475L1110 480L1105 485Z" fill="white"/>
+  
+  <!-- Wake Word Badge -->
+  <rect x="920" y="515" width="210" height="30" rx="15" fill="#18181b" stroke="#4f46e5"/>
+  <text x="935" y="535" font-family="Inter, sans-serif" font-size="11" fill="#a5b4fc">🎤 "Hey Agent" active</text>
+  
+  <!-- Quick Actions -->
+  <text x="920" y="570" font-family="Inter, sans-serif" font-size="12" fill="#71717a" font-weight="600">Quick Actions</text>
+  <rect x="920" y="585" width="95" height="30" rx="6" fill="#27272a"/>
+  <text x="930" y="605" font-family="Inter, sans-serif" font-size="11" fill="#d4d4d8">📋 Copy All</text>
+  <rect x="1025" y="585" width="95" height="30" rx="6" fill="#27272a"/>
+  <text x="1035" y="605" font-family="Inter, sans-serif" font-size="11" fill="#d4d4d8">🔖 Save List</text>
+  
+  <!-- Footer -->
+  <text x="600" y="780" font-family="Inter, sans-serif" font-size="12" fill="#52525b" text-anchor="middle">Multi-Tab Browsing • AI-Powered Recommendations • Voice Control</text>
+</svg>

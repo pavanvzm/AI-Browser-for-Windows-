@@ -9,8 +9,37 @@
 
 **A production-ready, AI-powered web browser with native voice control**
 
-[Features](#features) • [Installation](#installation) • [Usage](#usage) • [Architecture](#architecture) • [Contributing](#contributing)
+[Features](#features) • [UI Preview](#ui-preview) • [Installation](#installation) • [Usage](#usage) • [Architecture](#architecture) • [Contributing](#contributing)
 
+</div>
+
+---
+
+## 🎨 UI Preview
+
+### Main Browser Interface
+
+<div align="center">
+  <img src="./design-main-view.svg" alt="Main Browser View - Dark mode interface with AI sidebar and voice controls" width="800" />
+  <p><em>Main interface featuring dark mode chrome, multi-tab support, AI assistant sidebar with chat history, and real-time voice waveform visualization.</em></p>
+</div>
+
+---
+
+### Multi-Tab Browsing Experience
+
+<div align="center">
+  <img src="./design-multi-tab-view.svg" alt="Multi-Tab View - Tab management with AI analysis overlays" width="800" />
+  <p><em>Advanced tab management with AI-powered content analysis, floating recommendation cards, and intelligent search result highlighting.</em></p>
+</div>
+
+---
+
+### Voice Control Active State
+
+<div align="center">
+  <img src="./design-voice-active.svg" alt="Voice Active State - Animated voice command interface" width="800" />
+  <p><em>Voice interaction mode with animated waveform, pulsing microphone indicator, and real-time command transcription when "Hey Agent" is detected.</em></p>
 </div>
 
 ---
